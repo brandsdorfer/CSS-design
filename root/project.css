@@ -68,6 +68,7 @@ header h1{
     background-size: cover;
 
     @media screen and (max-width: 450px){
+        margin-top: 7%;
         height: 130vh;
     }
 }
