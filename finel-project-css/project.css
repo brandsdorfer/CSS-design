@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+
+}
+
+.menu-win{
+    display: none;;
+    position: absolute;
+    top:0%;
+    background-color: rgb(54, 209, 244);
+    width: 25%;
+    height: 100vh;
+}
+
+.menu-win h1{
+    padding-top: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+    #show-iphone{
+    display: none;
+    font-size: 20px;
+    width: 80%;
+    @media screen and (max-width: 450px){
+        display: block;
+        position: sticky;
+        margin: 10%;
+    }
+
+}
+
+header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    color: black;
+}
+
+header h1{
+    padding-left: 15%;
+    @media screen and (max-width: 450px){
+        margin: 0%;
+    }
+
+
+}
+#but-menu {
+    display: block;
+    position: fixed;
+    width: 10%;
+    height: 20px;
+    background-color: rgb(111, 153, 171);
+    color: white;
+    border: 0px ;
+
+}
+
+.part-1{
+    display: block;
+    color: white;
+    width: 100%;
+    height: 90vh;
+    background-image: url(pic/pexels-ken-tomita-389818.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (max-width: 450px){
+        height: 130vh;
+    }
+}
+
+.container-part-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 172, 190, 0.788);
+
+    @media screen and (max-width: 450px){
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.description{
+    height: 77%;
+    width: 55%;
+    display: block;
+    margin: 3%;
+    @media screen and (max-width: 450px){
+        width: 80%;
+    }
+}
+
+form{
+    display: flex;
+    height: 67%;
+    width: 35%;
+    justify-content: start;
+    flex-flow: wrap;
+    align-items: center;
+    margin: 3%;
+    padding: 2%;
+    background-color: rgba(169, 223, 228, 0.788);
+    @media screen and (max-width: 450px){
+        width: 80%;
+    }
+}
+
+form input{
+    display: block;
+    width: 100%;
+    height: 35px;
+}
+
+form h3{
+    width: 100%;
+    margin: 7%;
+    padding-left: 10%;
+}
+
+.description h1{
+    @media screen and (max-width:450px) {
+        margin-top: 7vh;
+        
+    }
+}
+
+.description p{
+    margin-top: 4%;
+}
+
+form label{
+    display: block;
+
+}
+
+form p{
+    margin: 7%;
+    font-size: 7px;
+}
+
+.part-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+
+    @media screen and (max-width: 450px){
+        height: 130vh;
+        flex-direction: column;
+    }
+
+}
+
+.box{
+    display: flex;
+    width: 27%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    @media screen and (max-width: 450px){
+        width: 80%;
+    }
+}
+
+.box img{
+    display: block;
+    width: 25%;
+    height: 25%;
+}
+
+.box h3 p{
+    align-self: center;
+}
+
+.part-3{
+    display: flex;
+    align-items: center;
+    background-image: url(pic/bg-cream.jpeg);
+    background-repeat: repeat;
+    flex-direction: column;
+    height: 70vh;
+
+}
+
+.part-3 img{
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 150px;
+    margin: 2%;
+}
+
+.part-3 p{
+    width: 50%;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+
+}
+.part-3 hr{
+    width: 20%;
+    height: 5px;
+    background-color: black;
+    margin: 2%;
+}
+.part-3 h5{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+button{
+    display: block;
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 0;
+    margin: 2%;
+    height: 40px;
+    width: 100%;
+
+}
+
+.block-mes{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 136, 21, 0.5);
+
+}
+
+.mes-win{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 30%;
+    background-color: white;
+    border: 4px solid rgba(54, 136, 21, 1);
+    border-radius: 20px;
+
+}
+
+.mes-win button{
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+    align-items: end;
+    height: 7vh;
+    padding-top: 3vh;
+}
